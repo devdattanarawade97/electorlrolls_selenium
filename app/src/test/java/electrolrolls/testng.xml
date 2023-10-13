@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Electrolrolls">
+
+   <parameter name="URL" value="https://ceotserms2.telangana.gov.in/ts_erolls/rolls.aspx"></parameter>
+    <test name="getting polling stations">
+        <classes>
+            <class name="electrolrolls.AppTest">
+                <methods>
+                    <include name="getPollingStationsTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
